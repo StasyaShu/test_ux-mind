@@ -1,4 +1,8 @@
 .header {
+  background-color: $color-white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+
   &__wrapper {
     min-height: 100%;
     display: flex;
