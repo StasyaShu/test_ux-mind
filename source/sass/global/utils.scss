@@ -36,20 +36,6 @@ ul {
   overflow: hidden;
 }
 
-.wrapper {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 20px 0;
-
-  &__border {
-    display: grid;
-    grid-template-columns: 0.3fr 1fr;
-    border-radius: 25px;
-    background-color: $color-ghost-white-2;
-  }
-}
-
 *,
 *::before,
 *::after {

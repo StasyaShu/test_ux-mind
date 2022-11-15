@@ -1,0 +1,56 @@
+.main-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  margin-bottom: 30px;
+
+  &__search {
+    grid-column: 1 / 3;
+    position: relative;
+
+    input {
+      width: 100%;
+      border: none;
+      height: 54px;
+      padding: 16px 0 16px 56px;
+      border-radius: 10px;
+      background-color: $color-white;
+
+      &::placeholder {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: $font-family--neue;
+        color: $color-mid-grey;
+      }
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    svg {
+      color: $color-mid-grey;
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      margin-top: -13px;
+    }
+  }
+
+  &__personal-add-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: $color-neon-blue;
+    color: $color-white;
+  }
+
+  &__personal {
+    display: flex;
+    align-items: center;
+  }
+}

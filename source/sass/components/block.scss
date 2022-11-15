@@ -1,0 +1,20 @@
+.block {
+  background-color: $color-white;
+  border-radius: 16px;
+  padding: 20px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__name {
+    margin: 0;
+  }
+
+  &__filter {
+    display: flex;
+    align-items: center;
+  }
+}
