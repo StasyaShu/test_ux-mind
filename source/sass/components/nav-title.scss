@@ -1,0 +1,11 @@
+.nav-title {
+  font-family: $font-family--neue;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: $color-mid-grey;
+
+  &:hover {
+    color: $color-neon-blue;
+  }
+}

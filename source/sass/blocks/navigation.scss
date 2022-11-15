@@ -1,0 +1,56 @@
+.navigation {
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    transition: background-color $trans-03;
+
+    p {
+      display: block;
+      margin: 0;
+      padding: 0;
+      margin-left: 15px;
+    }
+
+    svg:last-of-type {
+      margin-left: auto;
+      transition: transform $trans-03;
+    }
+  }
+
+  &__title--select {
+    background-color: $color-ghost-white;
+
+    svg:last-of-type {
+      transform: rotate(180deg);
+      transition: transform $trans-03;
+    }
+  }
+
+  &__title:hover {
+    background-color: $color-ghost-white;
+    transition: background-color $trans-03;
+  }
+
+  &__content {
+    height: 0;
+    overflow: hidden;
+    padding: 0 12px;
+    background-color: $color-white;
+    transition: height $trans-03;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

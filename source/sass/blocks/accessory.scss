@@ -1,0 +1,20 @@
+.accessory {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+  &__item:not(:last-child) {
+    margin: 0 0 30px 0;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 15px;
+      fill: none;
+    }
+  }
+}
