@@ -1,0 +1,31 @@
+.controls {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &__item:not(:first-child) {
+    margin-left: 10px;
+  }
+
+  &__link {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  &__link--close {
+    background-color: $color-coral-red;
+  }
+
+  &__link--wrap {
+    background-color: $color-golden-tainoi;
+  }
+
+  &__link--full {
+    background-color: $color-screamin-green;
+  }
+}

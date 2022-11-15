@@ -1,0 +1,26 @@
+.header {
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 26px 32px;
+  }
+
+  &__controls {
+    margin: 0 0 35px 0;
+    width: 100%;
+  }
+
+  &__logo {
+    margin: 0 0 38px 0;
+
+    svg {
+      color: $color-malibu;
+    }
+  }
+
+  &__logo-link {
+    display: block;
+    width: max-content;
+  }
+}
