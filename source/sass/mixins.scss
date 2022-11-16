@@ -1,0 +1,14 @@
+// Desktop first
+
+@mixin tablet {
+  @media (max-width: $vp--1024 - 1) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $vp--320 - 1) {
+    @content;
+  }
+}
+

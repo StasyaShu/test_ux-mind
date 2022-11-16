@@ -10,5 +10,10 @@
     grid-column-gap: 20px;
     border-radius: 25px;
     background-color: $color-ghost-white-2;
+
+    @include tablet {
+      grid-template-columns: 0.45fr 1fr;
+      grid-column-gap: 15px;
+    }
   }
 }

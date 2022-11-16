@@ -2,4 +2,14 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+
+  @include tablet {
+    height: 350px;
+  }
+
+  &__chart {
+    @include tablet {
+      justify-self: end;
+    }
+  }
 }

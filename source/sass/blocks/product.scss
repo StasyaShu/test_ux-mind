@@ -2,6 +2,10 @@
   &__link {
     display: flex;
     align-items: center;
+
+    @media (max-width: 1150px) {
+      flex-wrap: wrap;
+    }
   }
 
   &__deco {
@@ -42,5 +46,15 @@
     line-height: 22px;
     color: $color-neon-blue;
     margin-left: auto;
+
+    @media (max-width: 1150px) {
+      width: 100%;
+      text-align: center;
+    }
+
+    @include tablet {
+      width: auto;
+      text-align: end;
+    }
   }
 }
