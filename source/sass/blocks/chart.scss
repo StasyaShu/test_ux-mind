@@ -1,0 +1,98 @@
+.chart {
+  width: 100%;
+  height: 100%;
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  &__item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $color-mid-grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+
+  &__item:not(:first-child) {
+    margin-left: 10px;
+  }
+
+  &__item::before {
+    content: "";
+    position: absolute;
+    bottom: 26px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  &__item:nth-child(2n+1)::before {
+    background-color: $color-neon-blue;
+  }
+
+  &__item:nth-child(2n)::before {
+    background-color: $color-pale-green;
+  }
+
+  &__item:first-child::before {
+    height: 20%;
+  }
+
+  &__item:first-child + li::before {
+    height: 40%;
+  }
+
+  &__item:nth-child(3)::before {
+    height: 35%;
+  }
+
+  &__item:nth-child(4)::before {
+    height: 10%;
+  }
+
+  &__item:nth-child(5)::before {
+    height: 90%;
+  }
+
+  &__item:nth-child(6)::before {
+    height: 12%;
+  }
+
+  &__item:nth-child(7)::before {
+    height: 10%;
+  }
+
+  &__item:nth-child(8)::before {
+    height: 70%;
+  }
+
+  &__item:nth-child(9)::before {
+    height: 20%;
+  }
+
+  &__item:nth-child(10)::before {
+    height: 55%;
+  }
+
+  &__item:nth-child(11)::before {
+    height: 10%;
+  }
+
+  &__item:nth-child(12)::before {
+    height: 10%;
+  }
+
+  &__item:nth-child(13)::before {
+    height: 10%;
+  }
+}
