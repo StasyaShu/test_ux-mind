@@ -1,0 +1,13 @@
+.burger-button {
+  button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0 12px;
+    margin: 0;
+  }
+
+  svg {
+    color: $color-mid-grey;
+  }
+}

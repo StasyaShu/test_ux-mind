@@ -4,6 +4,10 @@
   margin: 0 auto;
   padding: 20px;
 
+  @include mobile {
+    padding: 0;
+  }
+
   &__border {
     display: grid;
     grid-template-columns: 0.3fr 1fr;
@@ -14,6 +18,11 @@
     @include tablet {
       grid-template-columns: 0.45fr 1fr;
       grid-column-gap: 15px;
+    }
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
     }
   }
 }

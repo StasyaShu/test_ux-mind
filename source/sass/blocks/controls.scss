@@ -6,6 +6,10 @@
   flex-wrap: wrap;
   align-items: center;
 
+  @include mobile {
+    display: none;
+  }
+
   &__item:not(:first-child) {
     margin-left: 10px;
   }
