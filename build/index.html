@@ -236,21 +236,51 @@
               <div class="dashboard__block dashboard__block--overview overview block">
                 <div class="block__title">
                   <b class="block__name title">Overview</b>
-                  <a href="#" class="block__filter filter" aria-label="Filter the overview">All Time
-                    <svg width="18" height="18" viewBox="0 0 11 7">
-                      <use xlink:href="img/sprite.svg#icon-arrow-filter"></use>
-                    </svg>
-                  </a>
+                  <div class="custom-select" data-select>
+                    <button class="custom-select__button" type="button" aria-label="Выберите одну из опций"><span
+                        class="custom-select__text filter"></span><span class="custom-select__icon">
+                        <svg width="18" height="18" viewBox="0 0 11 7">
+                          <use xlink:href="img/sprite.svg#icon-arrow-filter"></use>
+                        </svg>
+                      </span></button>
+                    <ul class="custom-select__list" role="listbox">
+                      <li class="custom-select__item" tabindex="0" data-select-value="id-1" aria-selected="true"
+                        role="option">All Time</li>
+                      <li class="custom-select__item" tabindex="0" data-select-value="id-2" aria-selected="false"
+                        role="option">1 Day</li>
+                      <li class="custom-select__item" tabindex="0" data-select-value="id-3" aria-selected="false"
+                        role="option">1 Month</li>
+                      <li class="custom-select__item" tabindex="0" data-select-value="id-4" aria-selected="false"
+                        role="option">6 Months</li>
+                      <li class="custom-select__item" tabindex="0" data-select-value="id-5" aria-selected="false"
+                        role="option">1 Year</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div class="dashboard__block dashboard__block--income income block">
                 <div class="block__title">
                   <b class="block__name title">Total Income</b>
-                  <a href="#" class="block__filter filter filter--income" aria-label="Filter the overview">All Time
-                    <svg width="18" height="18" viewBox="0 0 11 7">
-                      <use xlink:href="img/sprite.svg#icon-arrow-filter"></use>
-                    </svg>
-                  </a>
+                  <div class="custom-select custom-select--filter-style" data-select>
+                    <button class="custom-select__button" type="button" aria-label="Выберите одну из опций"><span
+                        class="custom-select__text filter"></span><span class="custom-select__icon">
+                        <svg width="18" height="18" viewBox="0 0 11 7">
+                          <use xlink:href="img/sprite.svg#icon-arrow-filter"></use>
+                        </svg>
+                      </span></button>
+                    <ul class="custom-select__list" role="listbox">
+                      <li class="custom-select__item" tabindex="0" data-select-value="id-1" aria-selected="true"
+                        role="option">All Time</li>
+                      <li class="custom-select__item" tabindex="0" data-select-value="id-2" aria-selected="false"
+                        role="option">1 Day</li>
+                      <li class="custom-select__item" tabindex="0" data-select-value="id-3" aria-selected="false"
+                        role="option">1 Month</li>
+                      <li class="custom-select__item" tabindex="0" data-select-value="id-4" aria-selected="false"
+                        role="option">6 Months</li>
+                      <li class="custom-select__item" tabindex="0" data-select-value="id-5" aria-selected="false"
+                        role="option">1 Year</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div class="dashboard__block dashboard__block--popular popular block">

@@ -5,27 +5,4 @@
   line-height: 100%;
   font-family: $font-family--neue;
   color: $color-neon-blue;
-
-  svg {
-    margin-left: 8px;
-  }
-}
-
-.filter--income {
-  position: relative;
-
-  &::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 16px;
-    height: 16px;
-    left: -31px;
-    top: 50%;
-    margin-top: -10px;
-    background-image: url("../img/icon-filter.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-  }
 }
