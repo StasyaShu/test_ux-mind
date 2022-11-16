@@ -64,11 +64,11 @@
     bottom: 11px;
     z-index: 1;
     width: 100%;
-    max-height: 100px;
     margin: 0;
-    padding: 0 0 0 9px;
+    padding: 2px 10px 14px;
+    border-radius: 16px;
     list-style: none;
-    background-color: #ffffff;
+    background-color: $color-white;
     transform: translateY(100%);
     visibility: hidden;
     opacity: 0;

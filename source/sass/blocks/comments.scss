@@ -1,0 +1,28 @@
+.comments {
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      display: block;
+      margin: 0 0 10px 0;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+
+      color: $color-black-russian;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    time {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 15px;
+
+      color: $color-mid-grey;
+    }
+  }
+}
