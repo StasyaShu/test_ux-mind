@@ -114,7 +114,7 @@ exports.createWebpDev = createWebpDev;
 
 // Sprite
 
-const sprite = () => gulp.src('source/img/**/*.svg')
+const sprite = () => gulp.src('source/img/sprite/*.svg')
   .pipe(svgstore({
     inlineSvg: true
   }))

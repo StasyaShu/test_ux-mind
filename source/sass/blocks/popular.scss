@@ -1,0 +1,15 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+
+  &__link {
+    margin-top: auto;
+    align-self: center;
+    transition: opacity $trans-03;
+
+    &:hover {
+      opacity: 0.3;
+      transition: opacity $trans-03;
+    }
+  }
+}

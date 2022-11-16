@@ -1,0 +1,46 @@
+.product {
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+
+  &__deco {
+    background-color: $color-ghost-white;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__info {
+    margin: 0 0 0 15px;
+  }
+
+  &__name {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $color-mid-grey;
+  }
+
+  &__description {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: $color-black-russian;
+  }
+
+  &__price {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: $color-neon-blue;
+    margin-left: auto;
+  }
+}

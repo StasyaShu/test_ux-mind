@@ -257,7 +257,7 @@
                     </ul>
                   </div>
                 </div>
-                <div class="block__statistics statistics">
+                <div class="overview__statistics statistics">
                   <div class="statistics__block statistics__block--customers">
                     <p class="statistics__title">Customers</p>
                     <span>8%</span>
@@ -269,29 +269,35 @@
                     <b>$45,737,000</b>
                   </div>
                 </div>
-                <div class="block__experts experts">
+                <div class="overview__experts experts">
                   <p class="experts__title"><span>Welcome to our</span> online experts</p>
                   <ul class="experts__list">
                     <li class="experts__item">
                       <picture>
-                        <source type="image/webp" media="(max-width:767)" srcset="img/img-expert-andrew@1x.webp 1x, img/img-expert-andrew@2x.webp 2x">
-                        <img src="img/img-expert-andrew@1x.png" srcset="img/img-expert-andrew@2x.png 2x" width="70" height="70" alt="Expert's avatar">
+                        <source type="image/webp" media="(max-width:767)"
+                          srcset="img/img-expert-andrew@1x.webp 1x, img/img-expert-andrew@2x.webp 2x">
+                        <img src="img/img-expert-andrew@1x.png" srcset="img/img-expert-andrew@2x.png 2x" width="70"
+                          height="70" alt="Expert's avatar">
                       </picture>
                       <b>Andrew L.</b>
                       <p>2 years of online experience</p>
                     </li>
                     <li class="experts__item">
                       <picture>
-                        <source type="image/webp" media="(max-width:767)" srcset="img/img-expert-ray@1x.webp 1x, img/img-expert-ray@2x.webp 2x">
-                        <img src="img/img-expert-ray@1x.png" srcset="img/img-expert-ray@2x.png 2x" width="70" height="70" alt="Expert's avatar">
+                        <source type="image/webp" media="(max-width:767)"
+                          srcset="img/img-expert-ray@1x.webp 1x, img/img-expert-ray@2x.webp 2x">
+                        <img src="img/img-expert-ray@1x.png" srcset="img/img-expert-ray@2x.png 2x" width="70"
+                          height="70" alt="Expert's avatar">
                       </picture>
                       <b>Ray E.</b>
                       <p>1 year of online experience</p>
                     </li>
                     <li class="experts__item">
                       <picture>
-                        <source type="image/webp" media="(max-width:767)" srcset="img/img-expert-mariam@1x.webp 1x, img/img-expert-mariam@2x.webp 2x">
-                        <img src="img/img-expert-mariam@1x.png" srcset="img/img-expert-mariam@2x.png 2x" width="70" height="70" alt="Expert's avatar">
+                        <source type="image/webp" media="(max-width:767)"
+                          srcset="img/img-expert-mariam@1x.webp 1x, img/img-expert-mariam@2x.webp 2x">
+                        <img src="img/img-expert-mariam@1x.png" srcset="img/img-expert-mariam@2x.png 2x" width="70"
+                          height="70" alt="Expert's avatar">
                       </picture>
                       <b>Mariam M.</b>
                       <p>3 years of online experience</p>
@@ -346,13 +352,72 @@
                 <div class="block__title">
                   <b class="block__name title">Popular Products</b>
                 </div>
+                <div class="popular__block">
+                  <ul class="popular__list goods">
+                    <li class="goods__item product">
+                      <a href="#" class="product__link" aria-label="Go to product">
+                        <div class="product__deco">
+                          <img src="img/icon-product-a.svg" width="42" height="28" alt="Icon of product A">
+                        </div>
+                        <div class="product__info">
+                          <p class="product__name">Product A</p>
+                          <b class="product__description">Camera Kits</b>
+                        </div>
+                        <span class="product__price">$2772</span>
+                      </a>
+                    </li>
+                    <li class="goods__item product">
+                      <a href="#" class="product__link" aria-label="Go to product">
+                        <div class="product__deco">
+                          <img src="img/icon-product-b.svg" width="30" height="36" alt="Icon of product B">
+                        </div>
+                        <div class="product__info">
+                          <p class="product__name">Product B</p>
+                          <b class="product__description">Phone Kits</b>
+                        </div>
+                        <span class="product__price">$983</span>
+                      </a>
+                    </li>
+                    <li class="goods__item product">
+                      <a href="#" class="product__link" aria-label="Go to product">
+                        <div class="product__deco">
+                          <img src="img/icon-product-c.svg" width="28" height="40" alt="Icon of product C">
+                        </div>
+                        <div class="product__info">
+                          <p class="product__name">Product C</p>
+                          <b class="product__description">UI Kits</b>
+                        </div>
+                        <span class="product__price">$3242</span>
+                      </a>
+                    </li>
+                    <li class="goods__item product">
+                      <a href="#" class="product__link" aria-label="Go to product">
+                        <div class="product__deco">
+                          <img src="img/icon-product-d.svg" width="41" height="36" alt="Icon of product D">
+                        </div>
+                        <div class="product__info">
+                          <p class="product__name">Product D</p>
+                          <b class="product__description">Plugin Kits</b>
+                        </div>
+                        <span class="product__price">$322</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <a href="#" class="popular__link filter">
+                  All Products
+                  <svg width="12" height="12" viewBox="0 0 12 12">
+                    <use xlink:href="img/sprite.svg#icon-arrow-all-prod"></use>
+                  </svg>
+                </a>
               </div>
               <div class="dashboard__block dashboard__block--comments comments block">
                 <div class="block__title">
                   <b class="block__name title">Comments</b>
                 </div>
                 <div class="comments__content">
-                  <a href="#" aria-label="Go to comment">Posuere lorem justo, lectus id. Id elit eget facilisis magna pulvinar volutpat bibendum cras nibh.
+                  <a href="#" aria-label="Go to comment">Posuere lorem justo, lectus id. Id elit eget facilisis magna
+                    pulvinar volutpat bibendum cras nibh.
                   </a>
                   <time datetime="2020-01-12">12 Jan 2020</time>
                 </div>

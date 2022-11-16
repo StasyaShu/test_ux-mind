@@ -1,0 +1,15 @@
+.goods {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid $color-ghost-white;
+
+  &__item {
+    padding: 20px 0;
+  }
+
+  &__item:not(:last-child) {
+    border-bottom: 1px solid $color-ghost-white;
+  }
+}

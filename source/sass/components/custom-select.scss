@@ -1,7 +1,7 @@
 .custom-select {
   position: relative;
   width: auto;
-  padding: 9px 0 13px;
+  // padding: 9px 0 13px;
   display: flex;
   align-items: center;
 
@@ -65,7 +65,7 @@
     z-index: 1;
     width: 100%;
     margin: 0;
-    padding: 2px 10px 14px;
+    padding: 10px;
     border-radius: 16px;
     list-style: none;
     background-color: $color-white;

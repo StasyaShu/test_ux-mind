@@ -47,6 +47,12 @@
     border-radius: 50%;
     background-color: $color-neon-blue;
     color: $color-white;
+    transition: background-color $trans-03;
+
+    &:hover {
+      background-color: $transparent-neon-blue-03;
+      transition: background-color $trans-03;
+    }
   }
 
   &__personal {

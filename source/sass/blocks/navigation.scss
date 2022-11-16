@@ -19,6 +19,11 @@
       margin: 0;
       padding: 0;
       margin-left: 15px;
+      pointer-events: none;
+    }
+
+    svg {
+      pointer-events: none;
     }
 
     svg:last-of-type {
