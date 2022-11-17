@@ -1,13 +1,17 @@
 .burger-button {
-  button {
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    padding: 0 12px;
-    margin: 0;
-  }
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0 12px;
+  margin: 0;
+  transition: opacity $trans-03;
 
   svg {
     color: $color-mid-grey;
+  }
+
+  &:hover {
+    opacity: 0.3;
+    transition: opacity $trans-03;
   }
 }

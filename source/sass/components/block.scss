@@ -3,11 +3,23 @@
   border-radius: 16px;
   padding: 20px;
 
+  @include mobile {
+    padding: 10px;
+  }
+
   &__title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 0 20px 0;
+
+    @include tablet {
+      margin: 0 0 15px 0;
+    }
+
+    @include mobile {
+      margin: 0 0 10px 0;
+    }
   }
 
   &__name {

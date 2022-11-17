@@ -11,6 +11,10 @@
       line-height: 25px;
       color: $color-black-russian;
 
+      @include tablet {
+        max-width: 90%;
+      }
+
       &:hover {
         text-decoration: underline;
       }

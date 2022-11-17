@@ -7,7 +7,12 @@
     height: 350px;
   }
 
+  @include mobile {
+    height: auto;
+  }
+
   &__chart {
+
     @include tablet {
       justify-self: end;
     }

@@ -6,6 +6,10 @@
     grid-column-gap: 20px;
     grid-row-gap: 20px;
 
+    @media (max-width: 1250px) {
+      grid-template-rows: min-content 1fr 1.2fr .3fr .5fr;
+    }
+
     @include tablet {
       display: flex;
       flex-direction: column;

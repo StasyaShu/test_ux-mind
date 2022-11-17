@@ -74,6 +74,15 @@
 
     @include mobile {
       margin: 0 0 20px 0;
+      justify-content: end;
+    }
+  }
+
+  &__personal-list {
+    margin: 0 0 0 auto;
+
+    @include mobile {
+      margin-left: 40px;
     }
   }
 }

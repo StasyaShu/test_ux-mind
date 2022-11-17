@@ -4,6 +4,10 @@
   margin: 0 auto;
   padding: 20px;
 
+  @include tablet {
+    padding: 10px;
+  }
+
   @include mobile {
     padding: 0;
   }

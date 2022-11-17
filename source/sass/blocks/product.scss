@@ -4,6 +4,13 @@
     align-items: center;
 
     @media (max-width: 1150px) {
+      display: grid;
+      grid-template-columns: 0.5fr 1fr;
+      grid-template-rows: min-content min-content;
+    }
+
+    @include tablet {
+      display: flex;
       flex-wrap: wrap;
     }
   }
@@ -16,6 +23,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 1150px) {
+      grid-row: 1 / -1;
+      grid-column: 1 / 2;
+    }
   }
 
   &__info {
@@ -48,13 +60,13 @@
     margin-left: auto;
 
     @media (max-width: 1150px) {
-      width: 100%;
-      text-align: center;
+      grid-column: 2 / -1;
+      grid-row: 2 / -1;
+      margin-left: 15px;
     }
 
     @include tablet {
-      width: auto;
-      text-align: end;
+      margin-left: auto;
     }
   }
 }
