@@ -65,7 +65,7 @@
 }
 
 .statistics__block--customers {
-  border-radius: 16px 0px 0px 16px;
+  border-radius: 16px 0 0 16px;
   background-color: $color-ghost-white-2;
 
   @include mobile {
@@ -74,7 +74,7 @@
 }
 
 .statistics__block--income {
-  border-radius: 0px 16px 16px 0px;
+  border-radius: 0 16px 16px 0;
   background-color: $color-ghost-white;
 
   @include mobile {

@@ -111,6 +111,7 @@
 
 .header__menu.is-open {
   height: 100vh;
+  /* stylelint-disable-next-line */
   height: calc(89 * var(--vh, 1vh));
   padding-top: 20px;
   overflow: auto;

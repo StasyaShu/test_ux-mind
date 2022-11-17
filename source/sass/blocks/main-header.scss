@@ -29,13 +29,13 @@
       padding: 16px 0 16px 56px;
       border-radius: 10px;
       background-color: $color-white;
+    }
 
-      &::placeholder {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        color: $color-mid-grey;
-      }
+    input::placeholder {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: $color-mid-grey;
     }
 
     input:focus {

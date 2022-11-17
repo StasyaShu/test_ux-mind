@@ -22,12 +22,15 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
+    @media (max-width: 1248px) {
+      align-items: flex-start;
+    }
   }
 
   &__item {
-    display: block;
-    width: 28%;
     display: grid;
+    width: 28%;
     grid-template-columns: 0.5fr 1fr;
     grid-template-rows: auto auto;
     grid-column-gap: 5%;
@@ -36,6 +39,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-bottom: 10px;
     }
 
     picture {

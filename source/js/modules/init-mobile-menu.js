@@ -31,5 +31,3 @@ const manageMobMenu = () => {
 };
 
 export {manageMobMenu};
-
-

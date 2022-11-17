@@ -14,12 +14,12 @@
     svg {
       transition: color $trans-03;
     }
+  }
 
-    &:hover {
-      svg {
-        color: $color-neon-blue;
-        transition: color $trans-03;
-      }
+  &__link:hover {
+    svg {
+      color: $color-neon-blue;
+      transition: color $trans-03;
     }
   }
 
