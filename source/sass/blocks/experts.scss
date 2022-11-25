@@ -21,11 +21,7 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-
-    @media (max-width: 1248px) {
-      align-items: flex-start;
-    }
+    align-items: flex-start;
   }
 
   &__item {

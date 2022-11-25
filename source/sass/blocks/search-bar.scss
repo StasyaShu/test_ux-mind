@@ -1,0 +1,29 @@
+.search-bar {
+  input {
+    width: 100%;
+    border: none;
+    height: 54px;
+    padding: 16px 0 16px 56px;
+    border-radius: 10px;
+    background-color: $color-white;
+  }
+
+  input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: $color-mid-grey;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  svg {
+    color: $color-mid-grey;
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    margin-top: -14px;
+  }
+}

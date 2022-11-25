@@ -1,0 +1,35 @@
+.profile {
+  display: flex;
+  align-items: center;
+
+  @include mobile {
+    margin: 0 0 20px 0;
+    justify-content: end;
+  }
+
+  &__add-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: $color-neon-blue;
+    color: $color-white;
+    transition: background-color $trans-03;
+
+    &:hover {
+      background-color: $transparent-neon-blue-03;
+      transition: background-color $trans-03;
+    }
+  }
+
+
+  &__list {
+    margin: 0 0 0 auto;
+
+    @include mobile {
+      margin-left: 40px;
+    }
+  }
+}
